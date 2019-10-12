@@ -32,7 +32,7 @@
 
 ---
 
-@snap[north-east span-100 text-06 text-gray]
+@snap[north-west span-100 text-06 text-gray]
 JavaScript Event Loop
 @snapend
 
@@ -75,13 +75,13 @@ ajax('/data', function(response) {
 
 ```
 @snap[north-east span-30 text-08 fragment]
-@box[](Step 1.#A and B represent the first half of the program.)
+@box[](A and B represent the first half of the program.)
 @snapend
 
 @snap[east span-30 text-08 fragment]
-@box[](Step 2.#C represent the second half of the program.)
+@box[](C represent the second half of the program.)
 @snapend
 
 @snap[south-east span-30 text-08 fragment]
-@box[](Step 3.#A and B run now and later if the ajax call succeed C continue the execution of the program.)
+@box[](A and B run now and later if the ajax call succeed C continue the execution of the program.)
 @snapend
