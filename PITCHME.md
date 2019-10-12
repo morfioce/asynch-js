@@ -103,33 +103,35 @@ Continuation with Callbacks
 @snapend
 
 ```js
-et commentIds = [1, 2, 3];
-let commentDB = {
+const commentIds = [1, 2, 3];
+const commentDB = {
   1: 'First comment',
   2: 'Second comment',
   3: 'Third comment',
 }
-
 function print(msg) {
   console.log(msg);
 }
-
 function getComment(id, cb) {
-  let delay = Math.random() * 1000
+  let delay = Math.random() * 1000;
   
   print('Request comment with id: ', id);
   setTimeout(function() {
     cb(commentDB[id])
   }, delay);
 }
+```
 
+@snap[east span-50 text-06 text-gray]
+```js
 function FetchCommentById(id) {
   getComment(id, function(cm) {
     // complete the function body
   })
 }
 
-FetchCommentById(1);
-FetchCommentById(2);
-FetchCommentById(3);
+commentIds.forEach(function(id) {
+  FetchCommentById(id);
+});
 ```
+@snapend
