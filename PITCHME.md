@@ -96,48 +96,11 @@ Continuation with Callbacks
 @box[](The callback encapsulates the continuation of the program.)
 @snapend
 
----
+---?color=#1D1E22
 
 @snap[north-west span-100 text-06 text-gray]
 Continuation with Callbacks
 @snapend
 
-@snap[west span-50]
-```js
-const commentIds = [1, 2, 3];
-const commentDB = {
-  1: 'First comment',
-  2: 'Second comment',
-  3: 'Third comment',
-}
-function print(msg) {
-  console.log(msg);
-}
-function getComment(id, cb) {
-  let delay = Math.random() * 1000;
-  
-  print('Request comment with id: ', id);
-  setTimeout(function() {
-    cb(commentDB[id])
-  }, delay);
-}
-```
-@snapend
-
-@snap[north-east span-50]
-```js
-
-
-
-
-function FetchCommentById(id) {
-  getComment(id, function(cm) {
-    // complete the function body
-  })
-}
-
-commentIds.forEach(function(id) {
-  FetchCommentById(id);
-});
-```
-@snapend
+##Exercise
+### Request 3 files in parrallel but display them as soon as possible in order.
