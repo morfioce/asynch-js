@@ -74,14 +74,14 @@ ajax('/data', function(response) {
 // Code section B
 
 ```
-@snap[south-west span-30 text-06 fragment]
-@box[rounded text-white box-graphql](Step 1.#Describe your data.)
+@snap[north-east span-30 text-06 fragment]
+@box[](Step 1.#A and B represent the first half of the program.)
 @snapend
 
-@snap[south span-30 text-06 fragment]
-@box[rounded text-white box-graphql](Step 2.#Ask for what you want.)
+@snap[east span-30 text-06 fragment]
+@box[](Step 2.#C represent the second half of the program.)
 @snapend
 
 @snap[south-east span-30 text-06 fragment]
-@box[rounded text-white box-graphql](Step 3.#Get predictable results.)
+@box[](Step 3.#to do.)
 @snapend
