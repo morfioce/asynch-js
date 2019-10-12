@@ -122,7 +122,7 @@ function getComment(id, cb) {
 }
 ```
 
-@snap[east span-50 text-06 text-gray]
+@snap[east span-100]
 ```js
 function FetchCommentById(id) {
   getComment(id, function(cm) {
