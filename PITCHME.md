@@ -74,14 +74,14 @@ ajax('/data', function(response) {
 // Code section B
 
 ```
-@snap[north-east span-30 text-08 fragment]
+@snap[north-east span-45 text-08 fragment]
 @box[](A and B represent the first half of the program.)
 @snapend
 
-@snap[east span-30 text-08 fragment]
+@snap[east span-45 text-08 fragment]
 @box[](C represent the second half of the program.)
 @snapend
 
-@snap[south-east span-30 text-08 fragment]
+@snap[south-east span-45 text-08 fragment]
 @box[](A and B run now and later if the ajax call succeed C continue the execution of the program.)
 @snapend
