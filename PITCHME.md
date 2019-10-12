@@ -6,8 +6,6 @@
 
 ### GraphQL
 @fa[quote-left quote-graphql](A query language for your API)
-![GRAPHQL](assets/img/graphql.png)
-
 @snapend
 
 @snap[north-east span-40 text-08]
@@ -28,11 +26,6 @@
 
 ### GraphQL
 @fa[quote-left quote-graphql text-white](A query language for your API)
-
-@snapend
-
-@snap[midpoint span-60]
-![GATEWAY](assets/img/gateway.png)
 @snapend
 
 @snap[south-west span-30 text-06]
