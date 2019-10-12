@@ -134,7 +134,7 @@ doA(function(...) {
 doF();
 ```
 
-@snap[east span-20text-08 fragment]
+@snap[south-east span-20 text-08 fragment]
 1. doA()
 2. doF()
 3. doB()
