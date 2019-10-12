@@ -13,13 +13,13 @@
 @snapend
 
 @snap[north-east span-40 text-08]
-@box[bg-green](Step 1.#Schema # Define types using SDL)
+@box[bg-green](Step 1.#Schema Define types using SDL)
 @snapend
 
 @snap[east span-40 text-08]
-@box[bg-blue](Step 2.#Query # Fetch data with Queries)
+@box[bg-blue](Step 2.#Query Fetch data with Queries)
 @snapend
 
 @snap[south-east span-40 text-08]
-@box[bg-gold](Step 3.#Mutate # Modify data with Mutations)
+@box[bg-gold](Step 3.#Mutate Modify data with Mutations)
 @snapend
