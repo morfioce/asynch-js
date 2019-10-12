@@ -92,9 +92,8 @@ ajax('/data', function(response) {
 Continuation with Callbacks
 @snapend
 
-@snap[midpoint span-100 text-10 fragment]
-@box[](The callback encapsulates the continuation of the program.)
-@snapend
+### The callback encapsulates the continuation of the program.)
+
 
 ---?color=#1D1E22
 
@@ -135,12 +134,12 @@ doF();
 ```
 
 @snap[east span-20 text-08 fragment]
-1. doA()              ''
-2. doF()              
-3. doB()              
-4. doC()              
-5. doE()              
-6. doD()              
+1. doA()
+2. doF()
+3. doB()
+4. doC()
+5. doE()
+6. doD()
 @snapend
 
 @snap[south-east span-50 text-08 fragment]
