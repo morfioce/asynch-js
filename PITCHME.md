@@ -102,5 +102,4 @@ Continuation with Callbacks
 Continuation with Callbacks
 @snapend
 
-##Exercise
 ### Request 3 files in parrallel but display them as soon as possible in order.
