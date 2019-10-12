@@ -105,7 +105,7 @@ Continuation with Callbacks
 @snap[north-east span-100 text-06 text-gray]
 @snapend
 
-@snap[west]
+@snap[west span-45]
 ```js
 const commentIds = [1, 2, 3];
 const commentDB = {
@@ -127,7 +127,7 @@ function getComment(id, cb) {
 ```
 @snapend
 
-@snap[east]
+@snap[east span-45]
 ```js
 function FetchCommentById(id) {
   getComment(id, function(cm) {
