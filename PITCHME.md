@@ -103,3 +103,29 @@ Continuation with Callbacks
 @snapend
 
 ### Request 3 files in parrallel but display them as soon as possible in order.
+
+---
+
+## What's wrong with callbacks
+
+---
+
+## Can you figure out the order of execution?
+
+```js
+doA(function(...) {
+
+  doB(...);
+  
+  doC(function(...) {
+  
+    doD();
+  
+  });
+  
+  doE();
+
+});
+
+doF();
+```
