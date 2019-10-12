@@ -124,7 +124,7 @@ function getComment(id, cb) {
 ```
 @snapend
 
-@snap[east]
+@snap[north-east]
 ```js
 function FetchCommentById(id) {
   getComment(id, function(cm) {
