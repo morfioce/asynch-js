@@ -33,7 +33,7 @@
 ---
 
 @snap[north-east span-100 text-06 text-gray]
-Simplification of Event Loop
+JavaScript Event Loop
 @snapend
 
 ```js
@@ -51,3 +51,11 @@ while (true) {
   }
 }
 ```
+
+---
+
+## Continuation with Callbacks
+
+---
+
+
