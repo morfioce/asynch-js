@@ -66,8 +66,22 @@ Continuation with Callbacks
 // Code section A
 
 ajax('/data', function(response) {
+
   // Code section C
+
 });
 
 // Code section B
+
 ```
+@snap[south-west span-30 text-06 fragment]
+@box[rounded text-white box-graphql](Step 1.#Describe your data.)
+@snapend
+
+@snap[south span-30 text-06 fragment]
+@box[rounded text-white box-graphql](Step 2.#Ask for what you want.)
+@snapend
+
+@snap[south-east span-30 text-06 fragment]
+@box[rounded text-white box-graphql](Step 3.#Get predictable results.)
+@snapend
