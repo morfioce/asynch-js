@@ -129,6 +129,14 @@ function getComment(id, cb) {
 
 @snap[north-east span-50]
 ```js
+
+
+
+
+
+
+
+
 function FetchCommentById(id) {
   getComment(id, function(cm) {
     // complete the function body
