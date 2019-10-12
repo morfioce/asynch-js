@@ -136,10 +136,10 @@ doF();
 
 @snap[east span-50 text-08 fragment]
 @box[]
-(1. doA()
+1. doA()
 2. doF()
 3. doB()
 4. doC()
 5. doE()
-6. doD())
+6. doD()
 @snapend
