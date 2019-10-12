@@ -31,22 +31,21 @@
 ## JavaScript Event Loop
 
 @snap[north-east span-100 text-06 text-gray]
-Live Code Presenting
+Simplification of Event Loop
 @snapend
 
 ```js
-var io = require('socket.io')(80);
-var cfg = require('./config.json');
-var tw = require('node-tweet-stream')(cfg);
+let eventQueue = []
+let event = null;
 
-tw.track('socket.io');
-tw.track('javascript');
-
-tw.on('tweet', function(tweet){
-  io.emit('tweet', tweet);
-});
+while (true) {
+  if (eventQueue.length) {
+    event = eventQueue.shift();
+    try {
+      event();
+    } catch (e) {
+      reportError(e);
+    }
+  }
+}
 ```
-
-@[1]
-@[2,3]
-@[5-10]
