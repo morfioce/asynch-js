@@ -28,14 +28,14 @@
 @fa[quote-left quote-graphql text-white](A query language for your API)
 @snapend
 
-@snap[south-west span-30 text-06]
+@snap[south-west span-30 text-06 fragment]
 @box[rounded text-white box-graphql](Step 1.#Describe your data.)
 @snapend
 
-@snap[south span-30 text-06]
+@snap[south span-30 text-06 fragment]
 @box[rounded text-white box-graphql](Step 2.#Ask for what you want.)
 @snapend
 
-@snap[south-east span-30 text-06]
+@snap[south-east span-30 text-06 fragment]
 @box[rounded text-white box-graphql](Step 3.#Get predictable results.)
 @snapend
