@@ -95,3 +95,41 @@ Continuation with Callbacks
 @snap[midpoint span-100 text-10 fragment]
 @box[](The callback encapsulates the continuation of the program.)
 @snapend
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Continuation with Callbacks
+@snapend
+
+```js
+et commentIds = [1, 2, 3];
+let commentDB = {
+  1: 'First comment',
+  2: 'Second comment',
+  3: 'Third comment',
+}
+
+function print(msg) {
+  console.log(msg);
+}
+
+function getComment(id, cb) {
+  let delay = Math.random() * 1000
+  
+  print('Request comment with id: ', id);
+  setTimeout(function() {
+    cb(commentDB[id])
+  }, delay);
+}
+
+function FetchCommentById(id) {
+  getComment(id, function(cm) {
+    // complete the function body
+  })
+}
+
+FetchCommentById(1);
+FetchCommentById(2);
+FetchCommentById(3);
+```
