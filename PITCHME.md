@@ -133,3 +133,7 @@ doA(function(...) {
 
 doF();
 ```
+
+@snap[east span-45 text-08 fragment]
+@box[](doA(). -> doF() -> doB() -> doC() -> doE() -> doD())
+@snapend
