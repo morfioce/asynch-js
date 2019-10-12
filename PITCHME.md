@@ -110,7 +110,11 @@ Continuation with Callbacks
 
 ---
 
-## Can you figure out the order of execution?
+@snap[north-west span-100 text-06 text-gray]
+Continuation with Callbacks
+@snapend
+
+### Can you figure out the order of execution?
 
 ```js
 doA(function(...) {
