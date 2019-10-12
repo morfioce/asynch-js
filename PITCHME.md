@@ -92,6 +92,6 @@ ajax('/data', function(response) {
 Continuation with Callbacks
 @snapend
 
-@snap[middle span-45 text-08 fragment]
-@box[bg-blue](The callback encapsulates the continuation of the program.)
+@snap[midpoint span-100 text-10 fragment]
+@box[](The callback encapsulates the continuation of the program.)
 @snapend
