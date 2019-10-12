@@ -58,4 +58,16 @@ while (true) {
 
 ---
 
+@snap[north-east span-100 text-06 text-gray]
+Continuation with Callbacks
+@snapend
 
+```js
+// Code section A
+
+ajax('/data', function(response) {
+  // Code section C
+});
+
+// Code section B
+```
