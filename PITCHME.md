@@ -132,7 +132,6 @@ function getComment(id, cb) {
 
 
 
-
 function FetchCommentById(id) {
   getComment(id, function(cm) {
     // complete the function body
