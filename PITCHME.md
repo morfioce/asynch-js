@@ -85,3 +85,13 @@ ajax('/data', function(response) {
 @snap[south-east span-45 text-08 fragment]
 @box[](A and B run now and later if the ajax call succeed C continue the execution of the program.)
 @snapend
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Continuation with Callbacks
+@snapend
+
+@snap[middle span-45 text-08 fragment]
+@box[bg-blue](The callback encapsulates the continuation of the program.)
+@snapend
