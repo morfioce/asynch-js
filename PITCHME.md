@@ -30,6 +30,8 @@
 
 ## JavaScript Event Loop
 
+---
+
 @snap[north-east span-100 text-06 text-gray]
 Simplification of Event Loop
 @snapend
