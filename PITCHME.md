@@ -75,15 +75,15 @@ ajax('/data', function(response) {
 
 ```
 @snap[north-east span-45 text-08 fragment]
-@box[](A and B represent the first half of the program.)
+@box[](A and B represent the first half of the program)
 @snapend
 
 @snap[east span-45 text-08 fragment]
-@box[](C represent the second half of the program.)
+@box[](C represent the second half of the program)
 @snapend
 
 @snap[south-east span-45 text-08 fragment]
-@box[](A and B run now and later if the ajax call succeed C continue the execution of the program.)
+@box[](A and B run now and later if the ajax call succeed C continue the execution of the program)
 @snapend
 
 ---
@@ -92,7 +92,7 @@ ajax('/data', function(response) {
 Continuation with Callbacks
 @snapend
 
-### The callback encapsulates the continuation of the program.)
+### The callback encapsulates the continuation of the program
 
 
 ---?color=#1D1E22
@@ -101,7 +101,7 @@ Continuation with Callbacks
 Continuation with Callbacks
 @snapend
 
-### Request 3 files in parrallel but display them as soon as possible in order.
+### Request 3 files in parrallel but display them as soon as possible in order
 
 ---
 
