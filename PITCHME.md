@@ -58,7 +58,7 @@ while (true) {
 
 ---
 
-@snap[north-east span-100 text-06 text-gray]
+@snap[north-west span-100 text-06 text-gray]
 Continuation with Callbacks
 @snapend
 
