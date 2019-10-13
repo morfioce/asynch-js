@@ -440,4 +440,18 @@ Asynchronous thunk
 
 ### Request 3 files in parrallel but display them as soon as possible in order
 
+---
+
+## Promise API
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Promise API
+@snapend
+
+#### A Promise is
+#### an object that may produce a single value some time in the future
+
+
 
