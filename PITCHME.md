@@ -533,7 +533,7 @@ Promise API
 #### But we are still using callbacks 
 
 - promise.then(callabck)
-- promise.catch(callback)
+- promise.catch(callback) 
 
 #### How Promise is better than the old and simple callback?
 
