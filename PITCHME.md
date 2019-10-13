@@ -113,7 +113,8 @@ Continuation with Callbacks
 Continuation with Callbacks
 @snapend
 
-### Can you figure out the order of execution?
+#### Can you figure out the order of execution?
+#### doA and doC are async
 
 ```js
 doA(function(...) {
