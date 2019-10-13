@@ -152,7 +152,7 @@ A little confusing at first glance and take some mental cycles to follow the flo
 Continuation with Callbacks
 @snapend
 
-### Now doA() and doC() are synchronous
+### Can you figure out the order of execution? doA and doC are sync
 
 ```js
 doA(function(...) {
