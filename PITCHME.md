@@ -580,3 +580,26 @@ async await key words
 
 ####  A special syntax to work with promises in a more comfortable fashion
 
+---
+
+@snap[north-west span-100 text-06 text-gray]
+async await key words
+@snapend
+
+#### Async functions
+
+```js
+async function f() {
+  return 1;
+}
+
+// Equivalent to
+function g() {
+  return Promise.resolve(1);
+}
+```
+
+@snap[east span-50 fragment]
+The word “async” before a function means one simple thing: a function always returns a promise
+@snapend
+
