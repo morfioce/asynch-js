@@ -545,18 +545,8 @@ Promise API
 
 #### Promise are designed to maintane TRUST by have the following properties:
 
-@snap[west span-100 text-08 fragment]
-A promise is either succeed or fail
-@snapend
-@snap[west span-100 text-08 fragment]
-A promise resolve or reject only once
-@snapend
-@snap[west span-100 text-08 fragment]
-A promise is immutable once resolved
-@snapend
-@snap[middle span-100 text-08 fragment]
-A promise message is kept once resolved
-@snapend
-@snap[middle span-100 text-08 fragment]
-Exception becomes error
-@snapend
+- A promise is either succeed or fail
+- A promise resolve or reject only once
+- A promise is immutable once resolve
+- A promise message is kept once resolved
+- Exception becomes error
