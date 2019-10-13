@@ -451,8 +451,8 @@ Promise API
 @snapend
 
 #### A Promise is
-#### an object that may produce a single value some time in the future
-#### either a resolved value or a reason why the promise could could not be resolved
+#### an object that may produce a single value some time in the future,
+#### either a resolved value or a reason why the promise could could not be resolved.
 
 
 
