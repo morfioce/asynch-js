@@ -627,10 +627,14 @@ let value = await promise;
 @snap[south-west span-50 fragment]
 ```js
 async function f() {
-
+  let promise = new Promise(
+    function(resolve, reject) {
+      setTimeout(() => resolve("done!"), 1000)
+    }
+  );
+  let result = await promise; // wait till the promise resolves
   console.log(result); // "done!"
 }
-
 f();
 ```
 @snapend
