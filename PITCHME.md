@@ -367,3 +367,12 @@ analytics.trackPurchase(
 @box[](What if the trackPurchase do not call ckeckout callback!)
 @snapend
 
+---
+
+### There is a TRUST issue with callbacks
+
+- Call the callback too many times
+- Call the callback too early
+- Call the callback too late
+- Caller fail to pass the error parameter
+- Caller fail to pass the data parameter
