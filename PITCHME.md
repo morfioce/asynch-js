@@ -516,8 +516,6 @@ Asynchronous thunk
 
 ### Request 3 files in parrallel but display them as soon as possible in order
 
----
-
 ---?color=#1D1E22
 
 @snap[north-west span-100 text-06 text-gray]
