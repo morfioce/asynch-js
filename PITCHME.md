@@ -593,11 +593,19 @@ async function f() {
   return 1;
 }
 
+f().then(function(value) {
+  // value == 1
+})
+```
+
+@snap[west span-50 fragment]
+```js
 // Equivalent to
 function g() {
   return Promise.resolve(1);
 }
 ```
+@snapend
 
 @snap[east span-50 text-08 fragment]
 The word “async” before a function means one simple thing: a function always returns a promise
