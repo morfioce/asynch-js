@@ -491,13 +491,7 @@ Promise API
 
 ```js
 let function wait(mil) {
-  return new Promise(function(resolve, reject) {
-    if (typeof mil !== 'number' || Number.isNaN(mil)) {
-      reject('"mil" should be a number');
-      return;
-    }
-    setTimeout(function() { resolve('go'); }, mil);
-  });
+ ...
 }
 
 wait(1000)
