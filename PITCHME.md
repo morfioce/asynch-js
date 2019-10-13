@@ -480,3 +480,36 @@ wait('xyz').catch(function(err) {
   // err == '"mil" should be a number'
 }):
 ````
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Promise API
+@snapend
+
+#### Chaining promises
+
+```js
+let function wait(mil) {
+  return new Promise(function(resolve, reject) {
+    if (typeof mil !== 'number' || Number.isNaN(mil)) {
+      reject('"mil" should be a number');
+      return;
+    }
+    setTimeout(function() { resolve('go'); }, mil);
+  });
+}
+
+wait(1000)
+  .then(function() { 
+    console.log('Task 1 done');
+    return wait(1000);
+  })
+  .then(function() { 
+    console.log('Task 2 done');
+    return wait(1000);
+  })
+  .then(function() {
+    console.log('Task 3 done');
+  });
+````
