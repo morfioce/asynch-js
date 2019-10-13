@@ -642,7 +642,7 @@ The keyword await makes JavaScript wait until that promise settles and returns i
 async await key words
 @snapend
 
-#### Error handling
+#### Rejecting with async functions
 
 ```js
 async function f() {
@@ -653,7 +653,7 @@ f().catch(function(err) {
   // err == Error("Whooops!");
 });
 ```
-@snap[west span-100 fragment]
+@snap[middle span-100 fragment]
 #### Equivalent to
 @snapend
 
