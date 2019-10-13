@@ -387,4 +387,15 @@ Asynchronous thunk
 @snapend
 
 #### A synchronous thunk is
-#### a function with no argument and return a value, simple
+#### a function with no argument and return a value
+
+```js
+function add(a, b) {
+  return a + b;
+}
+
+// This is a thunk
+const thunk = function() {
+  return add(7, 10);
+}
+```
