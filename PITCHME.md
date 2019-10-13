@@ -335,6 +335,35 @@ analytics.trackPurchase(
 @box[](What if the trackPurchase call ckeckout callback many times!)
 @snapend
 
-@snap[south-east span-50 text-08 fragment]
-@box[](It's not a big deal we can fix this)
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Continuation with Callbacks
 @snapend
+
+#### Is it fixed now?
+
+```js
+let isCheckoutDone = false;
+analytics.trackPurchase(
+  purchaseData,
+  function checkout(err, data) {
+    if (!isCheckoutDone) {
+      isCheckoutDone = true;
+      if (err) {
+        logger.error(err);
+        return;
+      }
+
+      chargeCreditCard(data);
+      displayThankyouPage(data);
+    }
+  }
+);
+
+```
+
+@snap[east span-50 text-08 fragment]
+@box[](What if the trackPurchase do not call ckeckout callback!)
+@snapend
+
