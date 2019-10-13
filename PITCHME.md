@@ -653,8 +653,9 @@ f().catch(function(err) {
   // err == Error("Whooops!");
 });
 ```
-
+@snap[west span-100 fragment]
 #### Equivalent to
+@snapend
 
 @snap[south-west span-100 fragment]
 ```js
