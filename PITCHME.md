@@ -539,3 +539,19 @@ Promise API
 
 ---
 
+@snap[north-west span-100 text-06 text-gray]
+Promise API
+@snapend
+
+#### Promise are designed to maintane TRUST by have the following properties:
+
+@snap[middle fragment]
+- A promise is either succeed or fail
+@snapend
+- A promise only resolve once
+- A promise is immutable once resolved
+- A promise message is kept once resolved
+- Exception becomes error
+  
+#### How Promise is better than the old and simple callback? 
+
