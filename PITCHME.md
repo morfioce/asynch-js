@@ -454,5 +454,24 @@ Promise API
 #### an object that may produce a single value some time in the future,
 #### either a resolved value or a reason why the promise could could not be resolved.
 
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Promise API
+@snapend
+
+```js
+let function wait(mil) {
+  return new Promise(function(resolve, reject) {
+    if (typeof mil !== 'number' || Number.isNaN(mil)) {
+      reject('"mil" should be a number');
+      return;
+    }
+    setTimeout(function() { resolve('go'); }, mil);
+  });
+}
+
+wait(1000).then(function(val) { // val == 'go' });
+wait('xyz').catch(function(err) {// err == '"mil" should be a number'}):
 
 
