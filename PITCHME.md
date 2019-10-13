@@ -376,3 +376,15 @@ analytics.trackPurchase(
 - Call the callback too late
 - Caller fail to pass the error parameter
 - Caller fail to pass the data parameter
+
+---
+
+## Asynchronous thunk
+
+---
+@snap[north-west span-100 text-06 text-gray]
+Asynchronous thunk
+@snapend
+
+#### A synchronous thunk is
+#### a function with no argument and return a value, simple
