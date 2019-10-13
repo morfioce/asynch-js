@@ -688,3 +688,15 @@ async function f() {
 
 f();
 ```
+
+---?color=#1D1E22
+
+@snap[north-west span-100 text-06 text-gray]
+async await key words
+@snapend
+
+### Request 3 comments in parrallel but display them as soon as possible in order
+
+---
+
+## Thank you
