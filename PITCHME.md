@@ -530,12 +530,14 @@ Asynchronous thunk
 Promise API
 @snapend
 
+@snap[north-middle]
 #### But we are still using callbacks 
 
 - promise.then(callabck)
 - promise.catch(callback)
+@snapend
 
-@snap[south fragment]
+@snap[middle fragment]
 #### How Promise is better than the old and simple callback? 
 @snapend
 
