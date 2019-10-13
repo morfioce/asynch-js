@@ -430,5 +430,14 @@ thunk(function(value) {
 Asynchronous thunk
 @snapend
 
-### Async thunk is a time undependent wrapper around a value, which is the foundational idea behind promise API
+### Async thunk is a time undependent wrapper around a value, which is the foundational idea behind the promise API
+
+---?color=#1D1E22
+
+@snap[north-west span-100 text-06 text-gray]
+Asynchronous thunk
+@snapend
+
+### Request 3 files in parrallel but display them as soon as possible in order
+
 
