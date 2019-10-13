@@ -101,7 +101,7 @@ Continuation with Callbacks
 Continuation with Callbacks
 @snapend
 
-### Request 3 files in parrallel but display them as soon as possible in order
+### Request 3 comments in parrallel but display them as soon as possible in order
 
 ---
 
@@ -438,7 +438,7 @@ Asynchronous thunk
 Asynchronous thunk
 @snapend
 
-### Request 3 files in parrallel but display them as soon as possible in order
+### Request 3 comments in parrallel but display them as soon as possible in order
 
 ---
 
@@ -511,10 +511,10 @@ wait(1000)
 ---?color=#1D1E22
 
 @snap[north-west span-100 text-06 text-gray]
-Asynchronous thunk
+Promise API
 @snapend
 
-### Request 3 files in parrallel but display them as soon as possible in order
+### Request 3 comments in parrallel but display them as soon as possible in order
 
 ---?color=#1D1E22
 
@@ -522,6 +522,20 @@ Asynchronous thunk
 Asynchronous thunk
 @snapend
 
-### Request n files in parrallel but display them as soon as possible in order
+### Request n comments in parrallel but display them as soon as possible in order
 
 ---
+
+@snap[north-west span-100 text-06 text-gray]
+Promise API
+@snapend
+
+#### But we are still using callbacks 
+
+- promise.then(callabck)
+- promise.catch(callback)
+
+#### How Promise is better than the old and simple callback?
+
+---
+
