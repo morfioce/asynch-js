@@ -304,3 +304,34 @@ ajax('/data', function(response) {
 @snap[south-east span-50 text-08 fragment]
 @box[](This is called inversoin of control and it's a BIG deal)
 @snapend
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Continuation with Callbacks
+@snapend
+
+#### What can go wrong?
+
+```js
+analytics.trackPurchase(purchaseData, function checkout(err, data) {
+  
+  if (err) {
+    logger.error(err);
+    return;
+  }
+  
+  chargeCreditCard(data);
+  displayThankyouPage(data);
+  
+});
+
+```
+
+@snap[east span-50 text-08 fragment]
+@box[](What if the trackPurchase call ckeckout callback many times!)
+@snapen
+
+@snap[south-east span-50 text-08 fragment]
+@box[](It's not a big deal we can fix this)
+@snapen
