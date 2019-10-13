@@ -607,7 +607,7 @@ function g() {
 ```
 @snapend
 
-@snap[east span-50 text-08 fragment]
+@snap[south-east span-50 text-08 fragment]
 The word “async” before a function means one simple thing: a function always returns a promise
 @snapend
 
