@@ -423,3 +423,12 @@ thunk(function(value) {
  // consume the value
 });
 ```
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Asynchronous thunk
+@snapend
+
+### Async thunk is a time undependent wrapper around a value, which is the foundational idea behind promise API
+
