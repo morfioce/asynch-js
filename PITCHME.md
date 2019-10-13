@@ -40,14 +40,6 @@ Parralel vs Async
 
 #### Parrallel means doing many things at once.
 
----?color=#1D1E22
-
-@snap[north-west span-100 text-06 text-gray]
-Parralel vs Async
-@snapend
-
-#### JavaScript executes a program one chunk(mostly a function)  at a time, so JavaScript is async?
-
 ---
 
 @snap[north-west span-100 text-06 text-gray]
@@ -55,6 +47,22 @@ Parralel vs Async
 @snapend
 
 #### Asynchronous means starting now but finishing later.
+
+---?color=#1D1E22
+
+@snap[north-west span-100 text-06 text-gray]
+Parralel vs Async
+@snapend
+
+#### JavaScript executes a program one chunk (mostly a chuck is a function)  at a time, so JavaScript is async.
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Parralel vs Async
+@snapend
+
+#### How JavaScript split a program into chuncks (mostly a chunk is a function).
 
 ---
 
