@@ -598,7 +598,7 @@ f().then(function(value) {
 })
 ```
 
-@snap[west span-50 fragment]
+@snap[south-west span-50 fragment]
 ```js
 // Equivalent to
 function g() {
