@@ -52,9 +52,9 @@ while (true) {
 }
 ```
 
-@snap[east fragement]
+@snap[east span-50 fragement]
 Who can put callbacks in the eventQueue?
-@u
+@ul
 - Browser APIs such as fetch
 - DOM APIs such as onclick handler
 - Promise API
