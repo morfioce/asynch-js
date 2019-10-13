@@ -646,21 +646,23 @@ async await key words
 
 ```js
 async function f() {
-  await Promise.reject(new Error("Whoops!")); // same as `throw new Error("Whooops!")`;
+  throw new Error("Whoops!");
 }
+
+f().catch(function(err) {
+  // err == Error("Whooops!");
+});
 ```
 
+#### Equivalent to
 
 @snap[south-west span-100 fragment]
 ```js
 async function f() {
-  try {
-    let response = await fetch('http://no-such-url');
-  } catch(err) {
-    alert(err); // TypeError: failed to fetch
-  }
+  await Promise.reject(new Error("Whoops!"));
 }
-
-f();
+f().catch(function(err) {
+  // err == Error("Whooops!");
+});
 ```
 @snapend
