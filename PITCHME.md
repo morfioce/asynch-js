@@ -635,3 +635,35 @@ f();
 @snap[south-east span-50 text-08 fragment]
 The keyword await makes JavaScript wait until that promise settles and returns its result.
 @snapend
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+async await key words
+@snapend
+
+#### Error handling
+
+```js
+async function f() {
+  await Promise.reject(new Error("Whoops!")); // same as `throw new Error("Whooops!")`;
+}
+```
+
+#### We can catch that error using try..catch, the same way as a regular throw:
+
+```js
+async function f() {
+
+  try {
+    let response = await fetch('http://no-such-url');
+  } catch(err) {
+    alert(err); // TypeError: failed to fetch
+  }
+}
+
+f();
+```
+
+@snap[south-east span-50 text-08 fragment]
+@snapend
