@@ -419,11 +419,11 @@ analytics.trackPurchase(
 ### There is a TRUST issue with callbacks
 
 @ul
-- Call the callback too many times
-- Call the callback too early
-- Call the callback too late
-- Caller fail to pass the error parameter
-- Caller fail to pass the data parameter
+- Caller calls the callback too many times
+- Caller calls the callback too early
+- Caller calls the callback too late
+- Caller fails to pass the error parameter
+- Caller fails to pass the data parameter
 @ulend
 
 ---
