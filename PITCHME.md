@@ -548,10 +548,18 @@ Promise API
 @snap[middle fragment]
 - A promise is either succeed or fail
 @snapend
-- A promise only resolve once
+@snap[middle fragment]
+- A promise resolve or reject only once
+@snapend
+@snap[middle fragment]
 - A promise is immutable once resolved
+@snapend
+@snap[middle fragment]
 - A promise message is kept once resolved
+@snapend
+@snap[middle fragment]
 - Exception becomes error
+@snapend
   
 #### How Promise is better than the old and simple callback? 
 
