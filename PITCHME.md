@@ -650,8 +650,11 @@ async function f() {
 }
 ```
 
-#### We can catch that error using try..catch, the same way as a regular throw:
+@snap[west span-100 fragment]
+We can catch that error using try..catch, the same way as a regular throw:
+@snapend
 
+@snap[south-west span-100 fragment]
 ```js
 async function f() {
 
@@ -664,6 +667,7 @@ async function f() {
 
 f();
 ```
+@snapend
 
 @snap[south-east span-50 text-08 fragment]
 @snapend
