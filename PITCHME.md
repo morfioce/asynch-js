@@ -275,3 +275,32 @@ Continuation with Callbacks
 
 ### Reading and understanding asynchronous code with callbacks is HARD task
 
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Continuation with Callbacks
+@snapend
+
+```js
+// Code section A
+
+ajax('/data', function(response) {
+
+  // Code section C
+
+});
+
+// Code section B
+
+```
+@snap[north-east span-50 text-08 fragment]
+@box[](A and B run now under the main JS program)
+@snapend
+
+@snap[east span-50 text-08 fragment]
+@box[](C run later under the control the `ajax` utility function)
+@snapend
+
+@snap[south-east span-50 text-08 fragment]
+@box[](This is called inversoin of control and it's a BIG deal)
+@snapend
