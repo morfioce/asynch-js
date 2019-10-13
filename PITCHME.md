@@ -473,6 +473,4 @@ let function wait(mil) {
 
 wait(1000).then(function(val) { // val == 'go' });
 wait('xyz').catch(function(err) {// err == '"mil" should be a number'}):
-
-
-
+````
