@@ -545,13 +545,13 @@ Promise API
 
 #### Promise are designed to maintane TRUST by have the following properties:
 
-@snap[middle span-100 text-08 fragment]
+@snap[west span-100 text-08 fragment]
 A promise is either succeed or fail
 @snapend
-@snap[middle span-100 text-08 fragment]
+@snap[west span-100 text-08 fragment]
 A promise resolve or reject only once
 @snapend
-@snap[middle span-100 text-08 fragment]
+@snap[west span-100 text-08 fragment]
 A promise is immutable once resolved
 @snapend
 @snap[middle span-100 text-08 fragment]
