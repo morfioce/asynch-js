@@ -460,6 +460,8 @@ Promise API
 Promise API
 @snapend
 
+#### Promise constructor
+
 ```js
 let function wait(mil) {
   return new Promise(function(resolve, reject) {
@@ -471,6 +473,10 @@ let function wait(mil) {
   });
 }
 
-wait(1000).then(function(val) { // val == 'go' });
-wait('xyz').catch(function(err) {// err == '"mil" should be a number'}):
+wait(1000).then(function(val) { 
+  // val == 'go' 
+});
+wait('xyz').catch(function(err) {
+  // err == '"mil" should be a number'
+}):
 ````
