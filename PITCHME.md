@@ -507,3 +507,23 @@ wait(1000)
     console.log('Task 3 done');
   });
 ````
+
+---?color=#1D1E22
+
+@snap[north-west span-100 text-06 text-gray]
+Asynchronous thunk
+@snapend
+
+### Request 3 files in parrallel but display them as soon as possible in order
+
+---
+
+---?color=#1D1E22
+
+@snap[north-west span-100 text-06 text-gray]
+Asynchronous thunk
+@snapend
+
+### Request n files in parrallel but display them as soon as possible in order
+
+---
