@@ -52,6 +52,15 @@ while (true) {
 }
 ```
 
+@snap[east fragement]
+Who can put callbacks in the eventQueue?
+@u
+- Browser APIs such as fetch
+- DOM APIs such as onclick handler
+- Promise API
+@ulend
+@snapend
+
 ---
 
 ## Continuation with Callbacks
@@ -549,7 +558,7 @@ Promise API
 Promise API
 @snapend
 
-#### Promise are designed to maintane TRUST by have the following properties:
+#### Promise are designed to maintain TRUST by have the following properties:
 
 @ul
 - A promise is either succeed or fail
