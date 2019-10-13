@@ -314,24 +314,27 @@ Continuation with Callbacks
 #### What can go wrong?
 
 ```js
-analytics.trackPurchase(purchaseData, function checkout(err, data) {
+analytics.trackPurchase(
+  purchaseData,
+  function checkout(err, data) {
+
+    if (err) {
+      logger.error(err);
+      return;
+    }
+
+    chargeCreditCard(data);
+    displayThankyouPage(data);
   
-  if (err) {
-    logger.error(err);
-    return;
   }
-  
-  chargeCreditCard(data);
-  displayThankyouPage(data);
-  
-});
+);
 
 ```
 
 @snap[east span-50 text-08 fragment]
 @box[](What if the trackPurchase call ckeckout callback many times!)
-@snapen
+@snapend
 
 @snap[south-east span-50 text-08 fragment]
 @box[](It's not a big deal we can fix this)
-@snapen
+@snapend
