@@ -387,7 +387,7 @@ Asynchronous thunk
 @snapend
 
 #### A synchronous thunk is
-#### a function with no argument and return a value
+#### a function with no arguments and return a value
 
 ```js
 function add(a, b) {
@@ -398,4 +398,28 @@ function add(a, b) {
 const thunk = function() {
   return add(7, 10);
 }
+```
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Asynchronous thunk
+@snapend
+
+#### An asynchronous thunk is
+#### a function with a callback argument to get the value out of it
+
+```js
+function add(a, b, cb) {
+  setTimeout(function() { cb(a+b) }, 1000);
+}
+
+// This is a thunk
+const thunk = function(cb) {
+  add(7, 10, cb);
+}
+
+thunk(function(value) {
+ // consume the value
+});
 ```
