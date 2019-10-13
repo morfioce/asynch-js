@@ -620,12 +620,6 @@ async await key words
 #### Await
 
 ```js
-// works only inside async functions
-let value = await promise;
-```
-
-@snap[south-west span-50 fragment]
-```js
 async function f() {
   let promise = new Promise(
     function(resolve, reject) {
@@ -637,7 +631,6 @@ async function f() {
 }
 f();
 ```
-@snapend
 
 @snap[south-east span-50 text-08 fragment]
 The keyword await makes JavaScript wait until that promise settles and returns its result.
