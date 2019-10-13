@@ -545,21 +545,18 @@ Promise API
 
 #### Promise are designed to maintane TRUST by have the following properties:
 
-@snap[middle fragment]
-- A promise is either succeed or fail
+@snap[middle span-100 text-08 fragment]
+A promise is either succeed or fail
 @snapend
-@snap[middle fragment]
-- A promise resolve or reject only once
+@snap[middle span-100 text-08 fragment]
+A promise resolve or reject only once
 @snapend
-@snap[middle fragment]
-- A promise is immutable once resolved
+@snap[middle span-100 text-08 fragment]
+A promise is immutable once resolved
 @snapend
-@snap[middle fragment]
-- A promise message is kept once resolved
+@snap[middle span-100 text-08 fragment]
+A promise message is kept once resolved
 @snapend
-@snap[middle fragment]
-- Exception becomes error
+@snap[middle span-100 text-08 fragment]
+Exception becomes error
 @snapend
-  
-#### How Promise is better than the old and simple callback? 
-
