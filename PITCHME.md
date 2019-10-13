@@ -152,7 +152,8 @@ A little confusing at first glance and take some mental cycles to follow the flo
 Continuation with Callbacks
 @snapend
 
-### Can you figure out the order of execution?
+#### Can you figure out the order of execution?
+#### `doA` and `doB` are sync
 
 ```js
 doA(function(...) {
@@ -171,9 +172,6 @@ doA(function(...) {
 
 doF();
 ```
-@snap[north-east span-50 text-08 fragment]
-doA and doB are sync
-@snapend
 
 @snap[east span-20 text-08 fragment]
 1. doA()
