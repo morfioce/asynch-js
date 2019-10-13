@@ -567,3 +567,16 @@ Promise API
 - A promise message is kept once resolved
 - Exception becomes error
 @ulend
+
+---
+
+## async await key words
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+async await key words
+@snapend
+
+####  A special syntax to work with promises in a more comfortable fashion
+
