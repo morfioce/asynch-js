@@ -545,8 +545,10 @@ Promise API
 
 #### Promise are designed to maintane TRUST by have the following properties:
 
+@ul
 - A promise is either succeed or fail
 - A promise resolve or reject only once
 - A promise is immutable once resolve
 - A promise message is kept once resolved
 - Exception becomes error
+@ulend
