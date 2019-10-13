@@ -145,3 +145,42 @@ doF();
 @snap[south-east span-50 text-08 fragment]
 A little confusing at first glance and take some mental cycles to follow the flow of execution.
 @snapend
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Continuation with Callbacks
+@snapend
+
+### Now doA() and doC() are synchronous
+
+```js
+doA(function(...) {
+
+  doB(...);
+  
+  doC(function(...) {
+  
+    doD();
+  
+  });
+  
+  doE();
+
+});
+
+doF();
+```
+
+@snap[east span-20 text-08 fragment]
+1. doA()
+2. doB()
+3. doC()
+4. doD()
+5. doE()
+6. doF()
+@snapend
+
+@snap[south-east span-50 text-08 fragment]
+What ???
+@snapend
