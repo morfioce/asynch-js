@@ -534,8 +534,10 @@ Promise API
 
 - promise.then(callabck)
 - promise.catch(callback)
-  
+
+@snap[south fragment]
 #### How Promise is better than the old and simple callback? 
+@snapend
 
 ---
 
