@@ -530,16 +530,18 @@ Asynchronous thunk
 Promise API
 @snapend
 
-@snap[north-middle]
 #### But we are still using callbacks 
 
 - promise.then(callabck)
 - promise.catch(callback)
+
+---?color=#1D1E22
+
+@snap[north-west span-100 text-06 text-gray]
+Promise API
 @snapend
 
-@snap[middle fragment]
 #### How Promise is better than the old and simple callback? 
-@snapend
 
 ---
 
