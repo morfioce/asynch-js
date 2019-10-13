@@ -154,7 +154,7 @@ Continuation with Callbacks
 @snapend
 
 #### Can you figure out the order of execution?
-#### `doA` and `doB` are sync
+#### doA and doC are sync
 
 ```js
 doA(function(...) {
@@ -186,3 +186,92 @@ doF();
 @snap[south-east span-50 text-08 fragment]
 What ???
 @snapend
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Continuation with Callbacks
+@snapend
+
+#### Can you figure out the order of execution?
+#### doA is async doC is sync
+
+```js
+doA(function(...) {
+
+  doB(...);
+  
+  doC(function(...) {
+  
+    doD();
+  
+  });
+  
+  doE();
+
+});
+
+doF();
+```
+
+@snap[east span-20 text-08 fragment]
+1. doA()
+2. doF()
+3. doB()
+4. doC()
+5. doD()
+6. doE()
+@snapend
+
+@snap[south-east span-50 text-08 fragment]
+What ???
+@snapend
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Continuation with Callbacks
+@snapend
+
+#### Can you figure out the order of execution?
+#### doA is sync doC is async
+
+```js
+doA(function(...) {
+
+  doB(...);
+  
+  doC(function(...) {
+  
+    doD();
+  
+  });
+  
+  doE();
+
+});
+
+doF();
+```
+
+@snap[east span-20 text-08 fragment]
+1. doA()
+2. doB()
+3. doC()
+4. doE()
+5. doF()
+6. doD()
+@snapend
+
+@snap[south-east span-50 text-08 fragment]
+What ???
+@snapend
+
+---
+
+@snap[north-west span-100 text-06 text-gray]
+Continuation with Callbacks
+@snapend
+
+### Reading and understanding asynchronous code with callbacks is HARD task
+
