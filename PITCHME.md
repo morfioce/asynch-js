@@ -611,3 +611,36 @@ function g() {
 The word “async” before a function means one simple thing: a function always returns a promise
 @snapend
 
+---
+
+@snap[north-west span-100 text-06 text-gray]
+async await key words
+@snapend
+
+#### Await
+
+```js
+// works only inside async functions
+let value = await promise;
+```
+
+@snap[south-west span-50 fragment]
+```js
+async function f() {
+
+  let promise = new Promise((resolve, reject) => {
+    setTimeout(() => resolve("done!"), 1000)
+  });
+
+  let result = await promise; // wait till the promise resolves
+
+  console.log(result); // "done!"
+}
+
+f();
+```
+@snapend
+
+@snap[south-east span-50 text-08 fragment]
+The keyword await makes JavaScript wait until that promise settles and returns its result.
+@snapend
