@@ -5,142 +5,53 @@
 ## Who AM I?
 
 ### BOUALLAGUI MONCEF
-### Node / React / AWS Developer
+### FullStack JS Engineer
 ### @Morfioce
 
 ---
 
 ## What are we going to talk about?
 
-1. Parralel Vs Asynchronous
-2. JavaScript Event Loop
-3. Continuation with Callbacks
-4. Asynchronous Thunk
-5. Promise API
+1. Callback functions
+2. Asynchronous Thunk
+3. Promise API
 6. async / await Key words
-7. Question Answers
 
 ---
 
-## Parralel vs Async
-
----
-
-@snap[north-west span-100 text-06 text-gray]
-Parralel vs Async
-@snapend
-
-#### Is JavaScript parrallel or async?
+## Callback functions
 
 ---
 
 @snap[north-west span-100 text-06 text-gray]
-Parralel vs Async
+Continuation with Callbacks
 @snapend
 
-#### Parrallel means doing many things at once.
+### A callback is a function that is passed as argument to another function.
 
 ---
 
 @snap[north-west span-100 text-06 text-gray]
-Parralel vs Async
+Continuation with Callbacks
 @snapend
 
-#### Asynchronous means starting now but finishing later.
+### A callback can be synchrounous or asynchronous
 
 ---?color=#1D1E22
 
 @snap[north-west span-100 text-06 text-gray]
-Parralel vs Async
+Continuation with Callbacks
 @snapend
 
-#### JavaScript executes a program one chunk (mostly a chuck is a function)  at a time, so JavaScript is async.
+### Synchronous callback
 
----
-
-@snap[north-west span-100 text-06 text-gray]
-Parralel vs Async
-@snapend
-
-#### How JavaScript split a program into chuncks (mostly a chunk is a function).
-
----
-
-## JavaScript Event Loop
-
----
-
-@snap[north-west span-100 text-06 text-gray]
-JavaScript Event Loop
-@snapend
-
-```js
-let eventQueue = []
-let event = null;
-
-while (true) {
-  if (eventQueue.length) {
-    event = eventQueue.shift();
-    try {
-      event();
-    } catch (e) {
-      reportError(e);
-    }
-  }
-}
-```
-
-@snap[east span-50 fragement]
-Who can put callbacks in the eventQueue?
-@ul
-- Browser APIs such as fetch
-- DOM APIs such as onclick handler
-- Promise API
-@ulend
-@snapend
-
----
-
-## Continuation with Callbacks
-
----
+---?color=#1D1E22
 
 @snap[north-west span-100 text-06 text-gray]
 Continuation with Callbacks
 @snapend
 
-```js
-// Code section A
-
-ajax('/data', function(response) {
-
-  // Code section C
-
-});
-
-// Code section B
-
-```
-@snap[north-east span-45 text-08 fragment]
-@box[](A and B represent the first half of the program)
-@snapend
-
-@snap[east span-45 text-08 fragment]
-@box[](C represent the second half of the program)
-@snapend
-
-@snap[south-east span-45 text-08 fragment]
-@box[](A and B run now and later if the ajax call succeed C continue the execution of the program)
-@snapend
-
----
-
-@snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
-@snapend
-
-### The callback encapsulates the continuation of the program
-
+### Asynchronous callback
 
 ---?color=#1D1E22
 
