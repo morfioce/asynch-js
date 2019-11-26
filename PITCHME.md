@@ -27,11 +27,9 @@
 Callback function
 @snapend
 
-@snap[midpoint span-50 text-teal]
+@snap[midpoint span-100 text-teal]
 ### A callback is a `function` that is passed `as argument` to another function.
 @snapend
-
-@fa[smile-o fa-4x fa-spin fragment]
 
 ---
 
@@ -162,10 +160,6 @@ doF();
 6. doF()
 @snapend
 
-@snap[south-east span-50 text-08 fragment]
-What ?
-@snapend
-
 ---
 
 @snap[north-west span-100 text-06 text-gray]
@@ -253,6 +247,8 @@ Continuation with Callbacks
 @snapend
 
 ### Reading and understanding asynchronous code with callbacks is a HARD task
+
+@fa[smile-o fa-4x fa-spin fragment]
 
 ---
 
