@@ -27,7 +27,7 @@
 Callback function
 @snapend
 
-### A callback is a <span style="color:teal">function</span> that is passed as argument to another function.
+### A callback is a <span style="color:teal">function</span> that is passed as <span style="color:teal">argument</span> to another function.
 
 ---
 
@@ -35,7 +35,7 @@ Callback function
 Callback function
 @snapend
 
-### A callback can be synchrounous or asynchronous
+### A callback can be <span style="color:teal">synchronous</span> or <span style="color:teal">asynchronous</span>
 
 ---?color=#1D1E22
 
@@ -89,7 +89,7 @@ Callback function
 @snapend
 
 #### Can you figure out the order of execution?
-#### doA and doC are async
+#### <span style="color:teal">doA</span> and <span style="color:teal">doC</span> are async
 
 ```js
 doA(function(...) {
@@ -129,7 +129,7 @@ Callback function
 @snapend
 
 #### Can you figure out the order of execution?
-#### doA and doC are sync
+#### <span style="color:teal">doA</span> and <span style="color:teal">doC</span> are sync
 
 ```js
 doA(function(...) {
@@ -165,7 +165,7 @@ Callback function
 @snapend
 
 #### Can you figure out the order of execution?
-#### doA is async doC is sync
+#### <span style="color:teal">doA</span> is <span style="color:teal">doC</span> doC is sync
 
 ```js
 doA(function(...) {
@@ -195,7 +195,7 @@ doF();
 @snapend
 
 @snap[south-east span-50 text-08 fragment]
-What ?
+@fa[dizzy]
 @snapend
 
 ---
@@ -205,7 +205,7 @@ Callback function
 @snapend
 
 #### Can you figure out the order of execution?
-#### doA is sync doC is async
+#### <span style="color:teal">doA</span> is sync <span style="color:teal">doC</span> is async
 
 ```js
 doA(function(...) {
