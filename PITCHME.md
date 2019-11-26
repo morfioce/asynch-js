@@ -165,7 +165,7 @@ Callback function
 @snapend
 
 #### Can you figure out the order of execution?
-#### <span style="color:teal">doA</span> is <span style="color:teal">doC</span> doC is sync
+#### <span style="color:teal">doA</span> is async <span style="color:teal">doC</span> doC is sync
 
 ```js
 doA(function(...) {
