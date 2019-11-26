@@ -27,7 +27,9 @@
 Callback function
 @snapend
 
+@snap[midpoint span-50 text-teal]
 ### A callback is a `function` that is passed `as argument` to another function.
+@snapend
 
 @fa[smile-o fa-4x fa-spin fragment]
 
