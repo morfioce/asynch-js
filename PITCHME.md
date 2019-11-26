@@ -630,8 +630,8 @@ async await key words
 ### Recap
 
 @ul
-- @fas[check] Promise API soloves the trust issue of callbacks
-- @fas[check] Async / await key words allows us to write asynchronous code in a synchronous style 
+- @fa[check] Promise API soloves the trust issue of callbacks
+- @fa[check] Async / await key words allows us to write asynchronous code in a synchronous style 
 @ulend
 
 ---
