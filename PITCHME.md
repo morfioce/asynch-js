@@ -5,7 +5,7 @@
 ## Who AM I?
 
 ### BOUALLAGUI MONCEF
-### @fa[js] FullStack JS Engineer
+### FullStack JS @fa[js] Engineer
 ### @fa[twitter] @Morfioce
 
 ---
