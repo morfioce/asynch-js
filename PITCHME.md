@@ -6,7 +6,7 @@
 
 ### BOUALLAGUI MONCEF
 ### FullStack JS @fa[js] Engineer
-### @fa[twitter] @Morfioce
+### @Morfioce
 
 ---
 
