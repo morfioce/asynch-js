@@ -637,5 +637,3 @@ async await key words
 ---
 
 ## Thank you
-
-@fa[peace fa-4x]
