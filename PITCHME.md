@@ -27,7 +27,7 @@
 Callback function
 @snapend
 
-### A callback is a <span style="color:#06BA63:">function</span> that is passed as argument to another function.
+### A callback is a <span style="color:teal">function</span> that is passed as argument to another function.
 
 ---
 
