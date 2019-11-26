@@ -21,13 +21,15 @@
 
 ## Callback function
 
----?color=#1561AD
+---
 
 @snap[north-west span-100 text-06 text-gray]
 Callback function
 @snapend
 
 ### A callback is a `function` that is passed `as argument` to another function.
+
+@fa[smile-o fa-4x fa-spin fragment]
 
 ---
 
