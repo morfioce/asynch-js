@@ -44,6 +44,15 @@ Continuation with Callbacks
 @snapend
 
 ### Synchronous callback
+```js
+const doubles = [1, 2, 3].map(function(item) {
+  return item * 2;
+})
+
+const even = [1, 2, 3].filter(function(item) {
+  return item % 2 == 0;
+})
+```
 
 ---?color=#1D1E22
 
