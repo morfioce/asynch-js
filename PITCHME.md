@@ -12,19 +12,19 @@
 
 ## What are we going to talk about?
 
-1. Callback functions
+1. Callback function
 2. Asynchronous Thunk
 3. Promise API
 6. async / await Key words
 
 ---
 
-## Callback functions
+## Callback function
 
 ---
 
 @snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
+Callback function
 @snapend
 
 ### A callback is a function that is passed as argument to another function.
@@ -32,10 +32,10 @@ Continuation with Callbacks
 ---
 
 @snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
+Callback function
 @snapend
 
-### A callback can be synchrounous or asynchronous
+### A callback can be *synchrounous* or *asynchronous*
 
 ---?color=#1D1E22
 
@@ -50,7 +50,7 @@ const doubles = [1, 2, 3].map(function(item) {
   return item * 2;
 })
 
-const even = [1, 2, 3].filter(function(item) {
+const evens = [1, 2, 3].filter(function(item) {
   return item % 2 == 0;
 })
 ```
@@ -58,7 +58,7 @@ const even = [1, 2, 3].filter(function(item) {
 ---?color=#1D1E22
 
 @snap[north-west span-100 text-06 text-gray]
-callback functions
+Callback function
 @snapend
 
 ### Asynchronous callback
@@ -73,7 +73,7 @@ fetch("https://api.com")
 ---?color=#1D1E22
 
 @snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
+Callback function
 @snapend
 
 ### Request 3 comments in parrallel but display them as soon as possible in order
@@ -85,7 +85,7 @@ Continuation with Callbacks
 ---
 
 @snap[north-west span-100 text-06 text-gray]
-callback functions
+Callback function
 @snapend
 
 #### Can you figure out the order of execution?
@@ -125,7 +125,7 @@ A little confusing at first glance and take some mental cycles to follow the flo
 ---
 
 @snap[north-west span-100 text-06 text-gray]
-Callback functions
+Callback function
 @snapend
 
 #### Can you figure out the order of execution?
@@ -159,13 +159,13 @@ doF();
 @snapend
 
 @snap[south-east span-50 text-08 fragment]
-What ???
+What ?
 @snapend
 
 ---
 
 @snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
+Callback function
 @snapend
 
 #### Can you figure out the order of execution?
@@ -199,13 +199,13 @@ doF();
 @snapend
 
 @snap[south-east span-50 text-08 fragment]
-What ???
+What ?
 @snapend
 
 ---
 
 @snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
+Callback function
 @snapend
 
 #### Can you figure out the order of execution?
@@ -239,7 +239,7 @@ doF();
 @snapend
 
 @snap[south-east span-50 text-08 fragment]
-What ???
+What ?
 @snapend
 
 ---
@@ -248,7 +248,9 @@ What ???
 Continuation with Callbacks
 @snapend
 
-### Reading and understanding asynchronous code with callbacks is HARD task
+### Reading and understanding asynchronous code with callbacks is a HARD task
+
+---
 
 @snap[north-west span-100 text-06 text-gray]
 Continuation with Callbacks
