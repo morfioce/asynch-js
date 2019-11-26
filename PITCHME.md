@@ -40,7 +40,7 @@ Continuation with Callbacks
 ---?color=#1D1E22
 
 @snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
+callback functions
 @snapend
 
 ### Synchronous callback
@@ -58,7 +58,7 @@ const even = [1, 2, 3].filter(function(item) {
 ---?color=#1D1E22
 
 @snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
+callback functions
 @snapend
 
 ### Asynchronous callback
@@ -66,8 +66,8 @@ Continuation with Callbacks
 ```js
 fetch("https://api.com")
   .then(function(res) { return res.json() })
-  .then(function(data) { // update dom })
-  .catch(function(err) { // handle error });
+  .then(function(data) { updateUI(data) })
+  .catch(function(err) { handleError(err) });
 ```
 
 ---?color=#1D1E22
@@ -85,7 +85,7 @@ Continuation with Callbacks
 ---
 
 @snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
+callback functions
 @snapend
 
 #### Can you figure out the order of execution?
@@ -125,7 +125,7 @@ A little confusing at first glance and take some mental cycles to follow the flo
 ---
 
 @snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
+Callback functions
 @snapend
 
 #### Can you figure out the order of execution?
@@ -249,38 +249,6 @@ Continuation with Callbacks
 @snapend
 
 ### Reading and understanding asynchronous code with callbacks is HARD task
-
----
-
-@snap[north-west span-100 text-06 text-gray]
-Continuation with Callbacks
-@snapend
-
-```js
-// Code section A
-
-ajax('/data', function(response) {
-
-  // Code section C
-
-});
-
-// Code section B
-
-```
-@snap[north-east span-50 text-08 fragment]
-@box[](A and B run now under the main JS program)
-@snapend
-
-@snap[east span-50 text-08 fragment]
-@box[](C run later under the control the `ajax` utility function)
-@snapend
-
-@snap[south-east span-50 text-08 fragment]
-@box[](This is called inversoin of control and it's a BIG deal)
-@snapend
-
----
 
 @snap[north-west span-100 text-06 text-gray]
 Continuation with Callbacks
