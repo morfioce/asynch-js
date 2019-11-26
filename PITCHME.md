@@ -195,7 +195,7 @@ doF();
 @snapend
 
 @snap[south-east span-50 text-08 fragment]
-@fa[dizzy]
+@fa[dizzy fa-3x]
 @snapend
 
 ---
@@ -235,7 +235,7 @@ doF();
 @snapend
 
 @snap[south-east span-50 text-08 fragment]
-What ?
+@fa[dizzy fa-3x]
 @snapend
 
 ---
@@ -630,10 +630,12 @@ async await key words
 ### Recap
 
 @ul
-- @fa[check] Promise API soloves the trust issue of callbacks
-- @fa[check] Async / await key words allows us to write asynchronous code in a synchronous style 
+- Promise API soloves the trust issue of callbacks
+- Async / await key words allows us to write asynchronous code in a synchronous style 
 @ulend
 
 ---
 
 ## Thank you
+
+@fa[peace fa-4x]
