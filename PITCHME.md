@@ -27,7 +27,7 @@
 Callback function
 @snapend
 
-### A callback is a function that is passed as argument to another function.
+### A callback is a @css[text-pink](function) that is passed as argument to another function.
 
 ---
 
