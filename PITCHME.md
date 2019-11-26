@@ -44,6 +44,7 @@ Continuation with Callbacks
 @snapend
 
 ### Synchronous callback
+
 ```js
 const doubles = [1, 2, 3].map(function(item) {
   return item * 2;
@@ -61,6 +62,13 @@ Continuation with Callbacks
 @snapend
 
 ### Asynchronous callback
+
+```js
+fetch("https://api.com")
+  .then(function(res) { return res.json() })
+  .then(function(data) { // update dom })
+  .catch(function(err) { // handle error });
+```
 
 ---?color=#1D1E22
 
