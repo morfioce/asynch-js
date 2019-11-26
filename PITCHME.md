@@ -6,7 +6,7 @@
 
 ### BOUALLAGUI MONCEF
 ### FullStack JS Engineer
-### @Morfioce
+### @fa[twitter] @Morfioce
 
 ---
 
@@ -27,9 +27,7 @@
 Callback function
 @snapend
 
-@snap[midpoint span-100 text-teal]
-### A callback is a `function` that is passed `as argument` to another function.
-@snapend
+### A callback is a function that is passed as argument to another function.
 
 ---
 
@@ -37,7 +35,7 @@ Callback function
 Callback function
 @snapend
 
-### A callback can be *synchrounous* or *asynchronous*
+### A callback can be synchrounous or asynchronous
 
 ---?color=#1D1E22
 
@@ -364,7 +362,7 @@ function add(a, b, cb) {
 // This is a thunk
 const thunk = function(cb) {
   add(7, 10, cb);
-}
+
 
 thunk(function(value) {
  // consume the value
@@ -377,7 +375,7 @@ thunk(function(value) {
 Asynchronous thunk
 @snapend
 
-### Async thunk is a time undependent wrapper around a value, which is the foundational idea behind the promise API
+### Async thunk is a time undependent wrapper around a value, which is the basic idea behind a promise
 
 ---?color=#1D1E22
 
@@ -399,7 +397,7 @@ Promise API
 
 #### A Promise is
 #### an object that may produce a single value some time in the future,
-#### either a resolved value or a reason why the promise could could not be resolved.
+#### either a resolved value or a reason why the promise could could not be resolved
 
 ---
 
@@ -463,14 +461,6 @@ Promise API
 
 ### Request 3 comments in parrallel but display them as soon as possible in order
 
----?color=#1D1E22
-
-@snap[north-west span-100 text-06 text-gray]
-Asynchronous thunk
-@snapend
-
-### Request n comments in parrallel but display them as soon as possible in order
-
 ---
 
 @snap[north-west span-100 text-06 text-gray]
@@ -496,7 +486,7 @@ Promise API
 Promise API
 @snapend
 
-#### Promise are designed to maintain TRUST by have the following properties:
+#### Promise are designed to maintain TRUST by having the following properties:
 
 @ul
 - A promise is either succeed or fail
@@ -516,7 +506,7 @@ Promise API
 async await key words
 @snapend
 
-####  A special syntax to work with promises in a more comfortable fashion
+####  A special syntax to work with promises in a more comfortable way
 
 ---
 
